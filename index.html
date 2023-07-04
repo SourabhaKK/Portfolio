@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Software Engineer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Agdasima', sans-serif;
+        }
+
+        body {
+            background-color: #FDA50F;
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100px;
+            background-color: #CC7722;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+            font-size: 1.5rem;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: #793802;
+            font-size: 1.6rem;
+        }
+
+        .left {
+            font-size: 2rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 100px 0;
+
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            margin: 50px 0;
+            font-size: x-large;
+            align-items: center;
+            font-size: 2.5rem;
+        }
+
+        .rightSection img {
+            width: 90%;
+        }
+
+        .name {
+            color: #964000;
+        }
+
+        #element {
+            color: #964000;
+        }
+
+        main hr {
+            border: 0;
+            background-color: white;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .secondSection {
+            height: 80vh;
+
+        }
+
+        .secondSection h2 {
+            font-size: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">SSK Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">Hi,
+                My name is <span class="name"> Sourabha K Kallapur</span>
+                <div>I am passionate</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="image1.png" alt="">
+            </div>
+
+        </section>
+        <hr>
+        <section class="secondSection">
+            <h2 style="text-align: center;">Skills</h2>
+            <div class="study">
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Software Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+    <!-- Setup and end animation! -->
+</body>
+
+</html>
