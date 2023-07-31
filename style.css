@@ -59,7 +59,7 @@ body {
 }
 .navbar a {
   font-size: 1.7rem;
-  color: var(--text-color);
+  color: var(--bg-color);
   margin-left: 4rem;
   font-weight: 600;
 }
@@ -214,7 +214,7 @@ section{
 }
 .home-img img{
   position: absolute;
-  bottom: 200px;
+  bottom: 100px;
   right: 20px;
   pointer-events: none;
   border-radius: 100px;
