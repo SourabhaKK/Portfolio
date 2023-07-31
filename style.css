@@ -457,7 +457,7 @@ span{
 /*Footer Ends*/
 /*--------------------------------------------*/
 /*Breakpoints*/
-@media(max-width:1200px){
+/* @media(max-width:1200px){
   html{
     font-size: 55%;
   }
@@ -608,5 +608,5 @@ span{
     flex-direction: column-reverse;
     text-align: center;
   }
-}
+} */
 /*Breakpoints End*/

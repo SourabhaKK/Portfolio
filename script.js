@@ -1,13 +1,13 @@
-/*=======Menu Icon Navbar=======*/
-let menuIcon=document.querySelector("#menu-icon");
-let navbar=document.querySelector(".navbar");
+// /*=======Menu Icon Navbar=======*/
+// let menuIcon=document.querySelector("#menu-icon");
+// let navbar=document.querySelector(".navbar");
 
-menuIcon.onclick=()=>{
-    menuIcon.classList.toggle('bx-x');
-    navbar.classList.toggle('active');
-};
+// menuIcon.onclick=()=>{
+//     menuIcon.classList.toggle('bx-x');
+//     navbar.classList.toggle('active');
+// };
 
-/*=======Scroll=======*/
+/*=======Page Animations=======*/
 ScrollReveal({ 
     reset: true,
     distance:'80px',
